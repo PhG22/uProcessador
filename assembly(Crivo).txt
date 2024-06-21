@@ -1,0 +1,48 @@
+0:	
+	LD R1,32
+	LD A,0
+	SW A
+	INC A
+	CMP R1
+	BNZ -3
+	LD A,2
+	LD R2,2
+	ADD A,R2
+	MOV R3,A
+	LD A, 0
+	SW R3
+	MOV A,R3
+	CMP R1
+	BN -6
+	LD A,3
+	LD R2,3
+	ADD A,R2
+	MOV R3,A
+	LD A, 0
+	SW R3
+	MOV A,R3
+	CMP R1
+	BN -6
+	LD A,5
+	LD R2,5
+	ADD A,R2
+	MOV R3,A
+	LD A, 0
+	SW R3
+	MOV A,R3
+	CMP R1
+	BN -6
+	LD A,7
+	LD R2,7
+	ADD A,R2
+	MOV R3,A
+	LD A, 0
+	SW R3
+	MOV A,R3
+	CMP R1
+	BN -6
+	LD A,2
+	LW R6,A
+	INC A
+	CMP R1
+	BNZ -3

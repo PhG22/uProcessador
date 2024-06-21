@@ -1,0 +1,61 @@
+v 4
+file . "ram_tb.vhd" "4e15af9d246f63db3e67f2ec6c57cdc2babdd236" "20240610224156.846":
+  entity ram_tb at 1( 0) + 0 on 269;
+  architecture tb_arch of ram_tb at 8( 107) + 0 on 270;
+file . "flags_register.vhd" "169df8fbe2ebb2a22503f1dcbcf34e5b8c3a45cc" "20240607183344.435":
+  entity flags_register at 1( 0) + 0 on 223;
+  architecture a_flags_register of flags_register at 15( 311) + 0 on 224;
+file . "processador_tb.vhd" "600026279c270c25794a7b0aec948eb3eb3e19a5" "20240619232352.096":
+  entity processador_tb at 1( 0) + 0 on 359;
+  architecture a_processador_tb of processador_tb at 8( 130) + 0 on 360;
+file . "top.vhd" "7c562790614c4903c614ae0d58c1c0577ddf44a8" "20240515174102.602":
+  entity top at 1( 0) + 0 on 87;
+  architecture a_top of top at 15( 371) + 0 on 88;
+file . "control_unit.vhd" "ecb09852420ddfed49089215a4797f22741d568a" "20240610225158.360":
+  entity control_unit at 1( 0) + 0 on 293;
+  architecture a_control_unit of control_unit at 14( 316) + 0 on 294;
+file . "program_counter.vhd" "641554af0e4f188a57ca808b32acee7e37af0c8d" "20240607180150.275":
+  entity program_counter at 1( 0) + 0 on 209;
+  architecture a_program_counter of program_counter at 13( 296) + 0 on 210;
+file . "rom.vhd" "4c072336dabfcb8d49ef681be6fbd1530f74e0ac" "20240619232349.243":
+  entity rom at 1( 0) + 0 on 357;
+  architecture a_rom of rom at 13( 227) + 0 on 358;
+file . "state_machine.vhd" "5c72883ba924104b4e114a4b7e5060bcaee1ff61" "20240511000253.173":
+  entity state_machine at 1( 0) + 0 on 21;
+  architecture a_state_machine of state_machine at 12( 206) + 0 on 22;
+file . "banco_registradores.vhd" "71e6d58bd44b9696c66ef8f3297c200ead08fb8f" "20240515010726.854":
+  entity banco_registradores at 1( 0) + 0 on 67;
+  architecture a_banco_registradores of banco_registradores at 15( 380) + 0 on 68;
+file . "ula_tb.vhd" "d13b85c1c2e3d162d9c97489d2628e50c13ddba2" "20240511000013.836":
+  entity ula_tb at 3( 48) + 0 on 13;
+  architecture a_ula_tb of ula_tb at 10( 155) + 0 on 14;
+file . "ula.vhd" "eabbfbef91b343f7012ffd401b1aefe263b925d3" "20240511000008.763":
+  entity ula at 3( 48) + 0 on 11;
+  architecture a_ula of ula at 17( 377) + 0 on 12;
+file . "registrador.vhd" "7d113061cbd1e1ec2c9da68fed5b04303c5796b9" "20240511000017.914":
+  entity registrador at 1( 0) + 0 on 15;
+  architecture a_registrador of registrador at 13( 325) + 0 on 16;
+file . "banco_registradores_tb.vhd" "d75565f541dacdc16d08f813ab8f3c06d7444742" "20240515010731.079":
+  entity banco_registradores_tb at 1( 0) + 0 on 69;
+  architecture a_banco_registradores_tb of banco_registradores_tb at 8( 146) + 0 on 70;
+file . "state_machine_tb.vhd" "f4a1f8fa5eaaffac5f69feaad69f68a08210d941" "20240511000257.610":
+  entity state_machine_tb at 1( 0) + 0 on 23;
+  architecture a_state_machine_tb of state_machine_tb at 8( 120) + 0 on 24;
+file . "rom_tb.vhd" "18db36f597be50b7db5807240f79e5cfb14e4d57" "20240511000306.808":
+  entity rom_tb at 1( 0) + 0 on 27;
+  architecture a_rom_tb of rom_tb at 8( 100) + 0 on 28;
+file . "program_counter_tb.vhd" "5df46fa4c82e771915547c0f5781c0a65aceeff3" "20240511000316.920":
+  entity program_counter_tb at 1( 0) + 0 on 31;
+  architecture a_program_counter_tb of program_counter_tb at 8( 124) + 0 on 32;
+file . "control_unit_tb.vhd" "17fc804e2d339f754d7838209f77b5c54232fd76" "20240511000332.145":
+  entity control_unit_tb at 1( 0) + 0 on 35;
+  architecture a_control_unit_tb of control_unit_tb at 8( 125) + 0 on 36;
+file . "top_tb.vhd" "d138b7bab43daad401bb79cd5c09cb848d04a8d3" "20240515174105.658":
+  entity top_tb at 1( 0) + 0 on 89;
+  architecture a_top_tb of top_tb at 8( 114) + 0 on 90;
+file . "processador.vhd" "6dd722c4452885a28eae066c8110b21bab6066bc" "20240619232354.621":
+  entity processador at 1( 0) + 0 on 361;
+  architecture a_processador of processador at 15( 395) + 0 on 362;
+file . "ram.vhd" "3b8c6ffafb023d8d6dfcebba687dac597020b831" "20240610221308.285":
+  entity ram at 1( 0) + 0 on 233;
+  architecture a_ram of ram at 15( 320) + 0 on 234;

@@ -1,0 +1,25 @@
+  MSB b15                 b0 LSB
+	|                 |
+NOP:	0000 0000 0000 0000 
+LD:	0001 ddda cccc cccc
+MOV:	0010 ddda sssa xxxx
+ADD:	0011 xxxx sssx xxxx
+SUB:	0100 xxxx sssx xxxx
+SUBI:	1100 xxxx cccc cccc
+CMP:	1000 xxxx sssa xxxx 
+JMP:	1111 xxxx cccc cccc
+BZ:	1001 xxxx cccc cccc
+BN:	1011 xxxx cccc cccc
+BNZ:	1101 xxxx cccc cccc
+BNN:	1110 xxxx cccc cccc
+LW:	0110 ddda sssa xxxx
+SW:	0111 xxxx sssa xxxx
+INC:	0101 ddda xxxx xxxx
+
+onde
+	ddd - registrador destino
+	sss - registrador fonte
+	cccc cccc - constante de 8bits
+	ccc cccc - constante de 7bits
+	a - usar ou não o acumulador como registrador fonte/destino
+	x - indiferente
